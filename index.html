@@ -9,20 +9,26 @@
   <body>
     <h1>GPA CALCULATOR</h1>
 
-<!-- A div to add assignments, grades and a button to add assignments -->
+    <!-- A div to add assignments, grades and a button to add assignments -->
     <div class="inputGroup">
-      <input type="text" id="assignmentName" placeholder="Enter Subject"/>
-      <input type="number" id="assignmentGrade" placeholder="Grade obtained(0-5)" min="0" max="5" step="0.01"/>
+      <input type="text" id="assignmentName" placeholder="Enter Subject" />
+      <input
+        type="number"
+        id="assignmentGrade"
+        placeholder="Grade obtained(0-5)"
+        min="0"
+        max="5"
+        step="0.01"
+      />
       <button id="Bttn">Add Assignment</button>
     </div>
 
     <h2>Your Current GPA: <span id="gpa">0.00</span></h2>
-<!--List element to contain the assignments after saving-->
+    <!--List element to contain the assignments after saving-->
     <ul id="assignmentList"></ul>
-
 
     <p class="note">Press "S" to save assignments to the console.</p>
 
-    <script src="script.js" defer></script>
+    <script src="script.js"></script>
   </body>
 </html>

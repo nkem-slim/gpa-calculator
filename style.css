@@ -1,17 +1,18 @@
-body{
+body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color:midnightblue;
+  background-color: midnightblue;
   padding: 20px;
   max-width: 600px;
   margin: auto;
 }
 
-h1, h2{
+h1,
+h2 {
   text-align: center;
-  color:cornsilk;
+  color: cornsilk;
 }
 
-.inputGroup{
+.inputGroup {
   display: flex;
   flex-direction: column;
   padding: 15px;
@@ -19,35 +20,36 @@ h1, h2{
   gap: 8px;
 }
 
-input, button{
+input,
+button {
   font-size: 14px;
   padding: 10px;
 }
 
-input{
+input {
   background-color: beige;
   border: 10px;
   padding: 10px;
 }
 
-button{
-  background-color:aquamarine;
-  color:black;
+button {
+  background-color: aquamarine;
+  color: black;
   border: 10px;
   transition: background 0.3s ease;
   cursor: pointer;
 }
 
-button:hover{
+button:hover {
   background-color: darkcyan;
 }
 
-ul{
+ul {
   list-style-type: none;
   padding: 0px;
 }
 
-li{
+li {
   background: whitesmoke;
   border: 1px bold bisque;
   padding: 10px;
@@ -55,9 +57,9 @@ li{
   border-radius: 5px;
 }
 
-.note{
+.note {
   text-align: center;
-  color:aquamarine;
-  font-weight:normal;
+  color: aquamarine;
+  font-weight: normal;
   font-size: 16px;
 }
